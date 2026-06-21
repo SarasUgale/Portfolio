@@ -48,7 +48,7 @@ function getAIReply(query: string): string {
         { word: "engineer", weight: 1 },
         { word: "developer", weight: 1 }
       ],
-      answer: "Saras Ugale is a results-driven **AI/ML Engineer** graduating in **July 2026** with a Bachelor's degree in Computer Science and Engineering (Artificial Intelligence) from **Nutan College of Engineering & Research, Pune**. He specializes in training deep architectures and deploying them as production-ready applications. His expertise spans **Computer Vision** (deepfake detection, signature biometrics), **Healthcare NLP** (ICD-10 medical coding), and **Generative AI**."
+      answer: "Saras Ugale is a results-driven AI/ML Engineer graduating in July 2026 with a Bachelor's degree in Computer Science and Engineering (Artificial Intelligence) from Nutan College of Engineering & Research, Pune. He specializes in training deep architectures and deploying them as production-ready applications. His expertise spans **Computer Vision** (deepfake detection, signature biometrics), Healthcare NLP (ICD-10 medical coding), and Generative AI."
     },
     {
       id: "medicode",
@@ -72,11 +72,11 @@ function getAIReply(query: string): string {
         { word: "clinical", weight: 3 },
         { word: "healthcare", weight: 3 }
       ],
-      answer: "**MediCode AI — Explainable ICD-10 Medical Coding Assistant**:\n\n" +
-        "• **Overview**: Automates ICD-10 medical code recommendations from messy healthcare transcripts.\n" +
-        "• **Metrics**: Achieved **95.10% Recall@5**, **93.80% MRR**, and **96.31% nDCG@5** on code retrieval tasks.\n" +
-        "• **Architecture**: Uses BioBERT & PubMedBERT embeddings coupled with a FAISS vector database (IndexFlatL2) for semantic search. This retrieval-based approach avoids the need for retraining when new codes are added.\n" +
-        "• **Features**: Integrates Google Cloud Vision OCR and PyMuPDF to extract text from handwritten prescriptions/scans. Features an Explainable AI (XAI) layer with LLM-generated reasoning, keyword highlighting, and confidence scores in a FastAPI dashboard."
+      answer: "MediCode AI — Explainable ICD-10 Medical Coding Assistant**:\n\n" +
+        "• Overview: Automates ICD-10 medical code recommendations from messy healthcare transcripts.\n" +
+        "• Metrics: Achieved 95.10% Recall@5, 93.80% MRR, and 96.31% nDCG@5 on code retrieval tasks.\n" +
+        "• Architecture: Uses BioBERT & PubMedBERT embeddings coupled with a FAISS vector database (IndexFlatL2) for semantic search. This retrieval-based approach avoids the need for retraining when new codes are added.\n" +
+        "• Features: Integrates Google Cloud Vision OCR and PyMuPDF to extract text from handwritten prescriptions/scans. Features an Explainable AI (XAI) layer with LLM-generated reasoning, keyword highlighting, and confidence scores in a FastAPI dashboard."
     },
     {
       id: "deepshield",
@@ -94,11 +94,11 @@ function getAIReply(query: string): string {
         { word: "forensics", weight: 3 },
         { word: "flask", weight: 2 }
       ],
-      answer: "**DeepShield AI — Deepfake Video Detection System**:\n\n" +
-        "• **Overview**: Detects AI-generated and manipulated faces in video sequences.\n" +
-        "• **Metrics**: Achieved **87.0% classification accuracy** on the Celeb-DF v2 dataset.\n" +
-        "• **Architecture**: Employs a hybrid **ResNeXt-CNN + LSTM** pipeline. ResNeXt-101 processes individual video frames to capture spatial anomalies, while LSTM models temporal inconsistencies across frame sequences.\n" +
-        "• **Features**: Preprocessing pipeline uses OpenCV for face extraction, frame sampling, normalization, and sequence generation. Evaluated and benchmarked CNN-only vs CNN+LSTM models to validate sequential modeling. Deployed as a Flask web service for video uploads and real-time authenticity prediction."
+      answer: "DeepShield AI — Deepfake Video Detection System:\n\n" +
+        "• Overview: Detects AI-generated and manipulated faces in video sequences.\n" +
+        "• Metrics: Achieved 87.0% classification accuracy on the Celeb-DF v2 dataset.\n" +
+        "• Architecture: Employs a hybrid **ResNeXt-CNN + LSTM pipeline. ResNeXt-101 processes individual video frames to capture spatial anomalies, while LSTM models temporal inconsistencies across frame sequences.\n" +
+        "• Features: Preprocessing pipeline uses OpenCV for face extraction, frame sampling, normalization, and sequence generation. Evaluated and benchmarked CNN-only vs CNN+LSTM models to validate sequential modeling. Deployed as a Flask web service for video uploads and real-time authenticity prediction."
     },
     {
       id: "signatrust",
@@ -118,11 +118,11 @@ function getAIReply(query: string): string {
         { word: "verification", weight: 3 },
         { word: "authentication", weight: 3 }
       ],
-      answer: "**SignaTrust AI — Biometric Signature Verification System**:\n\n" +
-        "• **Overview**: Authenticates handwritten signatures and detects skilled forgeries.\n" +
-        "• **Metrics**: Achieved **4.50% Equal Error Rate (EER)** and a **120ms inference latency**.\n" +
-        "• **Architecture**: Implements a Siamese Neural Network with Contrastive Loss for representation/metric learning, minimises pairwise distances to distinguish genuine/forged signatures.\n" +
-        "• **Features**: Overcomes severe class imbalance (few samples per user) and high intra-class variance. Applied elastic deformation and random shearing to simulate hand jitter. Preprocessing includes OpenCV resizing, denoising, and skeletonization."
+      answer: "SignaTrust AI — Biometric Signature Verification System:\n\n" +
+        "• Overview: Authenticates handwritten signatures and detects skilled forgeries.\n" +
+        "• Metrics: Achieved 4.50% Equal Error Rate (EER) and a 120ms inference latency.\n" +
+        "• Architecture: Implements a Siamese Neural Network with Contrastive Loss for representation/metric learning, minimises pairwise distances to distinguish genuine/forged signatures.\n" +
+        "• Features: Overcomes severe class imbalance (few samples per user) and high intra-class variance. Applied elastic deformation and random shearing to simulate hand jitter. Preprocessing includes OpenCV resizing, denoising, and skeletonization."
     },
     {
       id: "skills",
@@ -155,12 +155,12 @@ function getAIReply(query: string): string {
         { word: "rag", weight: 4 }
       ],
       answer: "Saras Ugale's technical stack includes:\n\n" +
-        "• **Languages & Frameworks**: Python, SQL, PyTorch, TensorFlow, Scikit-learn, Keras\n" +
-        "• **ML/AI**: Supervised/Unsupervised Learning, CNNs, RNNs, LSTMs, Transformer Models\n" +
-        "• **Generative AI & LLMs**: LangChain, Hugging Face, RAG, Fine-Tuning LLMs, Prompt Engineering\n" +
-        "• **MLOps & Deployment**: Model Deployment, FastAPI, Flask, REST APIs, GitHub Actions, Docker\n" +
-        "• **Data Science & Tools**: Feature Engineering, Data Preprocessing, Pandas, NumPy, Matplotlib, Seaborn, OpenCV, FAISS, Google Cloud Vision OCR, Git, AWS\n" +
-        "• **Visualization**: Power BI, Tableau"
+        "• Languages & Frameworks: Python, SQL, PyTorch, TensorFlow, Scikit-learn, Keras\n" +
+        "• ML/AI: Supervised/Unsupervised Learning, CNNs, RNNs, LSTMs, Transformer Models\n" +
+        "• Generative AI & LLMs: LangChain, Hugging Face, RAG, Fine-Tuning LLMs, Prompt Engineering\n" +
+        "• MLOps & Deployment: Model Deployment, FastAPI, Flask, REST APIs, GitHub Actions, Docker\n" +
+        "• Data Science & Tools: Feature Engineering, Data Preprocessing, Pandas, NumPy, Matplotlib, Seaborn, OpenCV, FAISS, Google Cloud Vision OCR, Git, AWS\n" +
+        "• Visualization: Power BI, Tableau"
     },
     {
       id: "contact",
@@ -183,10 +183,10 @@ function getAIReply(query: string): string {
         { word: "pune", weight: 3 }
       ],
       answer: "You can reach Saras Ugale directly through the following channels:\n\n" +
-        "• **Email**: [sarasugale@gmail.com](mailto:sarasugale@gmail.com)\n" +
-        "• **Phone**: +91 9284666670\n" +
-        "• **LinkedIn**: [linkedin.com/in/saras-ugale](https://linkedin.com/in/saras-ugale)\n" +
-        "• **GitHub**: [github.com/SarasUgale](https://github.com/SarasUgale)\n\n" +
+        "• Email: [sarasugale@gmail.com](mailto:sarasugale@gmail.com)\n" +
+        "• Phone: +91 9284666670\n" +
+        "• LinkedIn: [linkedin.com/in/saras-ugale](https://linkedin.com/in/saras-ugale)\n" +
+        "• GitHub: [github.com/SarasUgale](https://github.com/SarasUgale)\n\n" +
         "He is based in Pune, India (open to relocation) and is immediately available for interview calls, AI/ML junior engineer roles, and internships."
     },
     {
@@ -209,11 +209,11 @@ function getAIReply(query: string): string {
         { word: "studied", weight: 2 }
       ],
       answer: "Saras Ugale's educational details:\n\n" +
-        "• **Degree**: Bachelor of Engineering (B.Tech) in Computer Science and Engineering (Artificial Intelligence)\n" +
-        "• **Duration**: January 2022 - July 2026\n" +
-        "• **Institution**: Nutan College of Engineering & Research, Pune\n" +
-        "• **Affiliation**: DBATU (Dr. Babasaheb Ambedkar Technological University)\n" +
-        "• **Note on GPA**: His GPA is not explicitly listed on his resume, but he has built multiple high-end projects in computer vision and NLP as part of his academic coursework."
+        "• Degree: Bachelor of Engineering (B.Tech) in Computer Science and Engineering (Artificial Intelligence)\n" +
+        "• Duration: January 2022 - July 2026\n" +
+        "• Institution: Nutan College of Engineering & Research, Pune\n" +
+        "• Affiliation: DBATU (Dr. Babasaheb Ambedkar Technological University)\n" +
+        "• Note on GPA: His GPA is not explicitly listed on his resume, but he has built multiple high-end projects in computer vision and NLP as part of his academic coursework."
     },
     {
       id: "certifications",
@@ -234,12 +234,12 @@ function getAIReply(query: string): string {
         { word: "hp", weight: 3 }
       ],
       answer: "Saras has completed these professional certifications & simulations:\n\n" +
-        "1. **AWS Machine Learning Learning Plan** (AWS Skill Builder)\n" +
-        "2. **Deep Learning for Beginners** (Simplilearn)\n" +
-        "3. **AI Fundamentals: Language and Vision in AI** (IBM)\n" +
-        "4. **British Airways - Data Science Job Simulation** (Forage)\n" +
-        "5. **AI Fluency Framework Foundations certificate** (Anthropic)\n" +
-        "6. **Data Science & Analytics** (HP LIFE - Credential ID: `948f9456-efed-4159-aded-3f7024f0afce`)"
+        "1. AWS Machine Learning Learning Plan (AWS Skill Builder)\n" +
+        "2. Deep Learning for Beginners (Simplilearn)\n" +
+        "3. AI Fundamentals: Language and Vision in AI (IBM)\n" +
+        "4. British Airways - Data Science Job Simulation (Forage)\n" +
+        "5. AI Fluency Framework Foundations certificate (Anthropic)\n" +
+        "6. Data Science & Analytics (HP LIFE)"
     },
     {
       id: "projects_list",
@@ -253,11 +253,31 @@ function getAIReply(query: string): string {
         { word: "experience", weight: 2 }
       ],
       answer: "Saras Ugale has built three major portfolio projects:\n\n" +
-        "1. **MediCode AI**: An Explainable ICD-10 Medical Coding Assistant achieving **95.10% Recall@5** using BioBERT, PubMedBERT, FAISS, and Google Cloud Vision OCR.\n" +
-        "2. **DeepShield AI**: A Deepfake Video Detection System achieving **87.0% classification accuracy** using a ResNeXt-CNN + LSTM architecture.\n" +
-        "3. **SignaTrust AI**: A Biometric Signature Verification System achieving **4.50% Equal Error Rate (EER)** using Siamese Networks and Contrastive Loss.\n\n" +
+        "1. MediCode AI: An Explainable ICD-10 Medical Coding Assistant achieving 95.10% Recall@5 using BioBERT, PubMedBERT, FAISS, and Google Cloud Vision OCR.\n" +
+        "2. DeepShield AI: A Deepfake Video Detection System achieving 87.0% classification accuracy using a ResNeXt-CNN + LSTM architecture.\n" +
+        "3. SignaTrust AI: A Biometric Signature Verification System achieving 4.50% Equal Error Rate (EER) using Siamese Networks and Contrastive Loss.\n\n" +
         "You can ask me questions about any of these (e.g. 'How does MediCode AI work?' or 'What is DeepShield accuracy?')."
     },
+    {
+      id: "experience",
+      phrases: ["experience", "work experience", "professional experience", "industry experience", "tell me about your experience", "what experience do you have", "background experience"],
+      keywords: [
+      { word: "experience", weight: 4 },
+      { word: "professional", weight: 3 },
+      { word: "industry", weight: 3 },
+      { word: "work", weight: 2 },
+      { word: "background", weight: 2 },
+      { word: "skills", weight: 2 }
+      ],
+      answer: "Saras Ugale has gained extensive hands-on experience through the design, development, training, and deployment of AI-powered applications. His experience spans Machine Learning, Deep Learning, Computer Vision, NLP, Retrieval-Augmented Generation (RAG), and Full-Stack AI Development.\n\n" +
+      "Key experience includes:\n" +
+      "• Developing MediCode AI, an Explainable ICD-10 Medical Coding Assistant achieving 95.10% Recall@5 using BioBERT, PubMedBERT, FAISS, OCR, and semantic search.\n" +
+      "• Building DeepShield AI, a Deepfake Video Detection System using a ResNeXt-CNN + LSTM architecture achieving 87.0% classification accuracy.\n" +
+      "• Creating SignaTrust AI, a Signature Verification System using Siamese Networks and Contrastive Loss with a 4.50% Equal Error Rate (EER).\n" +
+      "• Deploying AI applications using FastAPI, Flask, vector databases, REST APIs, and modern web technologies.\n\n" +
+      "Through these projects, Saras has developed practical experience in model training, data preprocessing, feature engineering, evaluation, deployment, and production-ready AI system development."
+    },
+
     {
       id: "resume",
       phrases: ["download resume", "download cv", "get resume", "view resume", "where is your resume", "see resume", "pdf resume"],
@@ -312,9 +332,10 @@ function getAIReply(query: string): string {
     return "Hello! I am Saras's AI Assistant. Ask me anything about his projects (MediCode AI, DeepShield AI, SignaTrust AI), technical skills, certifications, education, or how to contact him.";
   }
 
-  return "I can answer specific questions about Saras's projects, skills, education, certifications, and contact details. Try asking: \n" +
+  return "I can answer specific questions about Saras's projects, skills, education, certifications,experience and contact details. Try asking: \n" +
     "• 'Tell me about MediCode AI'\n" +
     "• 'What is his stack?'\n" +
+    "• 'What is his experience?'\n" +
     "• 'How can I contact Saras?'\n" +
     "• 'AWS or IBM certifications?'\n" +
     "• 'Can I download his resume?'";
@@ -484,16 +505,16 @@ export function PortfolioShell() {
               variants={fadeUp}
             >
               <div className="stat-item">
-                <div className="stat-value">95.1%</div>
-                <div className="stat-label">Recall@5 · NLP</div>
+                <div className="stat-value">Pune, Maharashtra</div>
+                <div className="stat-label">Current Location</div>
               </div>
               <div className="stat-item">
-                <div className="stat-value">87%</div>
-                <div className="stat-label">Accuracy · CV</div>
+                <div className="stat-value">Flexible</div>
+                <div className="stat-label">Open to Relocation</div>
               </div>
               <div className="stat-item">
-                <div className="stat-value">4.5%</div>
-                <div className="stat-label">EER · Biometric</div>
+                <div className="stat-value">Fresher</div>
+                <div className="stat-label">Experience</div>
               </div>
               <div className="stat-item">
                 <div className="stat-value">Jul '26</div>

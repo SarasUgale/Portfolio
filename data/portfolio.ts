@@ -329,7 +329,7 @@ export const aiKnowledgeBase: QAEntry[] = [
   },
   {
     keywords: ["project", "projects", "work", "builds"],
-    answer: "Saras has built three major portfolio projects: \n1. **DeepShield AI** (Deepfake detection using ResNeXt + LSTM)\n2. **MediCode AI** (Explainable medical coding using BioBERT + FAISS)\n3. **SignaTrust AI** (Signature verification using Siamese Neural Networks). Click on the projects dashboard to explore their architecture details!"
+    answer: "Saras has built three major portfolio projects: \n1. DeepShield AI (Deepfake detection using ResNeXt + LSTM)\n2. MediCode AI (Explainable medical coding using BioBERT + FAISS)\n3. SignaTrust AI (Signature verification using Siamese Neural Networks). Click on the projects dashboard to explore their architecture details!"
   },
   {
     keywords: ["deepshield", "deepfake", "video", "lstm", "resnext"],
@@ -358,5 +358,10 @@ export const aiKnowledgeBase: QAEntry[] = [
   {
     keywords: ["certifications", "credential", "verify", "aws", "ibm", "hp"],
     answer: "Saras holds certifications in:\n- Deep Learning (Simplilearn)\n- Machine Learning (AWS Skillbuilders)\n- AI Fundamentals (IBM)\n- Data Science & Analytics (HP LIFE - Credential ID: 948f9456-efed-4159-aded-3f7024f0afce)."
-  }
+  },
+  {
+  keywords: ["experience", "work experience", "projects", "professional experience"],
+  answer: "Saras is an aspiring AI/ML Engineer with project-based experience in deep learning, computer vision, NLP, and full-stack AI development. His notable projects include DeepShield AI (Deepfake Detection), MediCode AI (Medical Coding Assistant), and SignaTrust AI (Signature Verification), demonstrating expertise in PyTorch, TensorFlow, FastAPI, Flask, FAISS, and production-ready AI systems."
+},
+  
 ];
