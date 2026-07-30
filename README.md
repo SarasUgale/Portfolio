@@ -44,14 +44,13 @@ The goal of this portfolio is to present my technical expertise, demonstrate rea
 
 ## 🌍 Live Demo
 
-> Add your portfolio URL here.
+> https://portfolio-sarasugale.vercel.app
 
 ## 📬 Connect With Me
 
-- **Portfolio:** *Your Portfolio URL*
-- **LinkedIn:** *Your LinkedIn Profile*
-- **GitHub:** *Your GitHub Profile*
-- **Email:** *Your Email Address*
+- **Portfolio:** *https://portfolio-sarasugale.vercel.app*
+- **LinkedIn:** *https://www.linkedin.com/in/saras-ugale*
+- **Email:** *sarasugale@gmail.comm*
 
 ---
 
